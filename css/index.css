@@ -1,0 +1,56 @@
+.wrapper {
+	background-image: url('../Images/green-white-background_1378-107.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 5rem;
+}
+
+a.navbar-brand {
+	font-weight: 800;
+}
+
+a.nav-link {
+	color: white!important;
+}
+
+button.nav-toggler {
+	color: white;
+}
+
+.jumbotron {
+	background: transparent!important;
+	color: white;
+}
+
+.jumbotron h1 {
+	font-weight: 400;
+}
+
+.section-icon img {
+	max-height: 50px;
+	max-width: 40px;
+	border-radius: 5px;
+	margin: 10px 0px;
+}
+
+.section-text {
+	text-align: center;
+}
+
+.section-text h3 {
+	font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+	ul.navbar-nav {
+		background-color: rgba(0, 0, 0, 0.377);
+		transition: all 1s ease-in;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	h1.display-4 {
+		font-weight: 600;
+		font-size: 1.65rem!important;
+	}
+}
