@@ -1,8 +1,11 @@
-.wrapper {
+body {
+	background-color: white!important;
+}
+
+.first-part {
 	background-image: url('../Images/simplify-web-background-green-no-white.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 5rem;
 }
 
 a.navbar-brand {
@@ -33,6 +36,10 @@ button.nav-toggler {
 	margin: 10px 0px;
 }
 
+.sections {
+	background-color: white;
+}
+
 .section-text {
 	text-align: center;
 }
@@ -51,6 +58,10 @@ button.nav-toggler {
 @media screen and (max-width: 576px) {
 	h1.display-4 {
 		font-weight: 600;
-		font-size: 1.65rem!important;
+		font-size: 1.66rem!important;
+	}
+
+	nav {
+		margin: 0px 10px;
 	}
 }
