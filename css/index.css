@@ -108,6 +108,7 @@ ul.top-social li a {
 .fsection-head {
 	font-style: italic;
 	text-decoration: underline;
+	color: black;
 }
 
 .input-group {
@@ -130,7 +131,8 @@ ul.top-social li a {
 }
 
 .closing {
-	background-color: rgba(0, 0, 0, 0.479);
+	background-color: rgba(0, 0, 0, 0.500);
+	color: white;
 }
 
 .closing p {
