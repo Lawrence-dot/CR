@@ -1,5 +1,6 @@
 body {
 	background-color: white!important;
+	position: relative;
 }
 
 .first-part {
@@ -73,7 +74,11 @@ a.services {
 
 footer {
 	background-color: rgba(0, 0, 0, 0.166)!important;
-	padding-bottom: 10px;
+	margin-bottom: 0!important;
+	background-image: url('../Images/simplify-web-background-green-no-white.png');
+	/* padding-bottom: 10px; */
+	position: absolute;
+	width: 100%;
 }
 
 div.footer-head {
@@ -87,7 +92,6 @@ div.footer-head {
 ul.top-social {
 	display: flex;
 	justify-content: center;
-	background-color: rgba(0, 0, 0, 0.363);
 	margin: 0 5.9rem!important;
 	padding: 0px!important;
 }
@@ -103,7 +107,7 @@ ul.top-social li a {
 
 .fsection-head {
 	font-style: italic;
-	text-decoration:transparent;
+	text-decoration: underline;
 }
 
 .input-group {
@@ -125,9 +129,6 @@ ul.top-social li a {
 	opacity: .6;
 }
 
-.fsection-heading h5 {
-	border: 1px solid black;
-}
 
 @media screen and (max-width: 992px) {
 	ul.navbar-nav {
