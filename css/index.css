@@ -129,6 +129,13 @@ ul.top-social li a {
 	opacity: .6;
 }
 
+.closing {
+	background-color: rgba(0, 0, 0, 0.479);
+}
+
+.closing p {
+	margin: 0px!important;
+}
 
 @media screen and (max-width: 992px) {
 	ul.navbar-nav {
